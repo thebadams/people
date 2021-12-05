@@ -1,0 +1,8 @@
+### CREATE A PERSON
+POST http://localhost:3001/person
+Content-Type: application/json
+
+{
+	"first_name": "Brian",
+	"last_name": "Adams"
+}
